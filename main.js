@@ -49,11 +49,19 @@ function meuEscopo() {
             } else {
                 grau.innerHTML = `${nivel}`
                 resultado.innerHTML = `Seu IMC é de ${imc}`
+            }    
+             if (typeof peso !== Number || typeof altura !== Number) {
+                resultado.style.color = '#050505'
+                resultado.innerHTML = '[ERROR] Formulário precisa ser preenchido somente com números. Verifique seus dados e tente novamente.'
+                resultado += ''
+            } else {
+                grau.innerHTML = `${nivel}`
+                resultado.style.color = '#050505'
+                resultado.innerHTML = `Seu IMC é de ${imc}`
             }
+    
         }
         validaDados();
-
-
     });
 }
 meuEscopo();
