@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap');
 
 :root {
-    --primeray-color:rgb(28, 84, 156);
+    --primeray-color: rgb(28, 84, 156);
 }
 
 * {
@@ -14,11 +14,12 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color:var(--primeray-color);
+    background-color: var(--primeray-color);
     font-family: 'Instrument Sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
 }
+
 .container {
     max-width: 700px;
     margin: 50px auto;
@@ -29,15 +30,20 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.441);
 }
 
+
 h1 {
     text-align: center;
 }
 
-form input, form label, form button {
+form input,
+form label,
+form button {
     display: block;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+
 }
 
 form input {
@@ -62,12 +68,12 @@ form button {
 }
 
 form button:hover {
-    background-color:#a71420;
-    
+    background-color: #a71420;
+
 }
 
 form button:active {
-    background-color:rgb(77, 78, 78);
+    background-color: rgb(77, 78, 78);
 }
 
 div#grau {
@@ -81,4 +87,3 @@ div#resultado {
     font-size: 26px;
     text-align: center;
 }
-
