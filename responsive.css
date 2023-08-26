@@ -43,7 +43,10 @@
         max-width: 290px;
         margin: auto;
         margin-top: 30px;
+        text-align: center;
     }
+
+    /* Correção do zoom padrão navagador mobile */
     input, select {
       font-size: 16px;
     }
